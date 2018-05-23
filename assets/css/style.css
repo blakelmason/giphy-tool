@@ -1,0 +1,23 @@
+.topics-button {
+    white-space: normal !important;
+}
+
+#add-button {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+#topics-header {
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+#topics-card {
+    width: fit-content;
+    background-color: #eeeeee;
+}
+
+#gif {
+    width: 100%;
+    border-radius: 1rem;
+}
