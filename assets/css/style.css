@@ -1,9 +1,15 @@
+body {
+    background-image: url('../images/redox_01.png');
+}
+
 .topics-button {
     white-space: normal !important;
+    word-wrap: break-word;
+    max-width: 100%
 }
 
 #add-button {
-    background-color: #ffffff;
+    background-color: #edf2fa;
     color: #333333;
 }
 
@@ -13,11 +19,38 @@
 }
 
 #topics-card {
-    width: fit-content;
-    background-color: #eeeeee;
+    width: fit-content;    
+    border-color: #ced4da;
+}
+
+.gif {
+    transition: filter 1s;
 }
 
 #gif {
-    width: 100%;
-    border-radius: 1rem;
+    animation: none;
+}
+
+@keyframes rainbowAnimation1 {
+    0%  {background-color:red; bottom: 0px;}
+    20% {background-color:orange;}
+    25% {bottom: 5px;}
+    40% {background-color:yellow;}
+    50% {bottom: 0px;}
+    60% {background-color:lightgreen;}
+    75% {bottom: 5px;}
+    80% {background-color:cyan;}
+    100% {background-color:violet; bottom: 0px;}
+}
+
+@keyframes rainbowAnimation2 {
+    0%  {background-color:red; bottom: 0px;}
+    20% {background-color:orange;}
+    25% {bottom: 5px;}
+    40% {background-color:yellow;}
+    50% {bottom: 0px;}
+    60% {background-color:lightgreen;}
+    75% {bottom: 5px;}
+    80% {background-color:cyan;}
+    100% {background-color:violet; bottom: 0px;}
 }

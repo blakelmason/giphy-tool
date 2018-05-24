@@ -18,26 +18,23 @@
     <!-- axios -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
-    <!-- javascript -->
-    <script src="./assets/javascript/app.js"></script>
-
     <title>Giphy Tool</title>
 </head>
 
 <body>
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0 mw-100">
         <div class="row mt-3 mx-3">
-            <div class="col-auto pl-0 pr-3">
-                <button type="button" class="btn btn-dark" id="add-button">Add</button>
+            <div class="col-12 col-sm-auto px-0 pr-sm-3 m-auto m-sm-0">
+                <button type="button" class="btn btn-dark w-100" id="add-button">Add</button>
             </div>
             <div class="col-12 col-sm-auto pr-0 pl-0 pt-2 pt-sm-0">
                 <input type="text" class="form-control" id="topic-input" placeholder="Add Topic...">
             </div>
         </div>
         <div class="row mw-100 m-0" id="topics-row">
-            <div class="col mw-100 p-0">
-                <div class="card m-3" id="topics-card">
-                    <div class="card-body" id="topics-card-body">
+            <div class="col p-3 mw-100 p-0">
+                <div class="card mw-100" id="topics-card">
+                    <div class="card-body mw-100" id="topics-card-body">
                         <h4 class="float-left" id="topics-header">
                             Topics:
                         </h4>
@@ -46,6 +43,8 @@
             </div>
         </div>
     </div>
+    <!-- javascript -->
+    <script src="./assets/javascript/app.js"></script>
 </body>
 
 </html>
